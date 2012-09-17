@@ -5,9 +5,7 @@ the MIT license and works with iOS 3 or later.
 
 Here are three screenshots that illustrate how your searchable table view will look like.
 
-![Example 1](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example1.png)
-![Example 2](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example2.png)
-![Example 3](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example3.png)
+![Example](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example.png)
 
 
 ## Installation
