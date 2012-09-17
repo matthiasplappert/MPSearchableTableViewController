@@ -3,13 +3,10 @@
 MPSearchableTableViewController is a drop-in class that makes creating searchable table views super easy and gives them the Apple-like look with zero effort. MPSearchableTableViewController is licensed under
 the MIT license and works with iOS 3 or later.
 
-Here’s how a searchable table view looks like by default:
+Here are three screenshots that illustrate how your searchable table view will look like.
+
 ![Example 1](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example1.png)
-
-If the user selects the search bar, the navigation bar hides itself to make more room for the search results:
 ![Example 2](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example2.png)
-
-The search bar scrolls with the table view. If the user scrolls up, the a blue background and border are visible to make sure it always looks great:
 ![Example 3](https://raw.github.com/matthiasplappert/MPSearchableTableViewController/master/.img/example3.png)
 
 
