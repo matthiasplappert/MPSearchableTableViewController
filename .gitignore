@@ -12,5 +12,3 @@ build/*
 
 *.xcodeproj/xcuserdata/*
 *.xcodeproj/project.xcworkspace/xcuserdata/*
-Example/Example.xcodeproj/xcuserdata/*
-Example/Example.xcodeproj/project.xcworkspace/xcuserdata/

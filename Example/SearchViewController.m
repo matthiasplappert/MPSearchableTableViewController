@@ -44,6 +44,16 @@
     return self;
 }
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // Here's the place to customize the search bar appearance. For example, you can add scope buttons
+    // using the following line of code:
+    //
+    // self.searchDisplayController.searchBar.scopeButtonTitles = @[ @"Button 1", @"Button 2" ];
+}
+
 #pragma mark - UITableViewDataSource
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

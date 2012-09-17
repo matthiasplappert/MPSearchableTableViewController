@@ -17,8 +17,8 @@
 		8C7C8FF916076117009E95CD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7C8FF816076117009E95CD /* Default@2x.png */; };
 		8C7C8FFB16076117009E95CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7C8FFA16076117009E95CD /* Default-568h@2x.png */; };
 		8C7C90081607617E009E95CD /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C90071607617E009E95CD /* SearchViewController.m */; };
-		8C7C9009160761F5009E95CD /* MPSearchableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C900316076153009E95CD /* MPSearchableTableViewController.m */; };
-		8C7C900A160761F7009E95CD /* MPTableViewSearchBarBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C900516076153009E95CD /* MPTableViewSearchBarBackgroundView.m */; };
+		8C7C9019160771CE009E95CD /* MPSearchableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C9016160771CE009E95CD /* MPSearchableTableViewController.m */; };
+		8C7C901A160771CE009E95CD /* MPTableViewSearchBarBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C9018160771CE009E95CD /* MPTableViewSearchBarBackgroundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,12 +35,12 @@
 		8C7C8FF616076117009E95CD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8C7C8FF816076117009E95CD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8C7C8FFA16076117009E95CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8C7C900216076153009E95CD /* MPSearchableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPSearchableTableViewController.h; path = ../MPSearchableTableViewController.h; sourceTree = "<group>"; };
-		8C7C900316076153009E95CD /* MPSearchableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPSearchableTableViewController.m; path = ../MPSearchableTableViewController.m; sourceTree = "<group>"; };
-		8C7C900416076153009E95CD /* MPTableViewSearchBarBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MPTableViewSearchBarBackgroundView.h; path = ../MPTableViewSearchBarBackgroundView.h; sourceTree = "<group>"; };
-		8C7C900516076153009E95CD /* MPTableViewSearchBarBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MPTableViewSearchBarBackgroundView.m; path = ../MPTableViewSearchBarBackgroundView.m; sourceTree = "<group>"; };
 		8C7C90061607617E009E95CD /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		8C7C90071607617E009E95CD /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		8C7C9015160771CE009E95CD /* MPSearchableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSearchableTableViewController.h; sourceTree = "<group>"; };
+		8C7C9016160771CE009E95CD /* MPSearchableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSearchableTableViewController.m; sourceTree = "<group>"; };
+		8C7C9017160771CE009E95CD /* MPTableViewSearchBarBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTableViewSearchBarBackgroundView.h; sourceTree = "<group>"; };
+		8C7C9018160771CE009E95CD /* MPTableViewSearchBarBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTableViewSearchBarBackgroundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		8C7C8FE316076117009E95CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8C7C900116076136009E95CD /* MPSearchableTableViewController */,
+				8C7C9014160771CE009E95CD /* MPSearchableTableViewController */,
 				8C7C8FE416076117009E95CD /* UIKit.framework */,
 				8C7C8FE616076117009E95CD /* Foundation.framework */,
 				8C7C8FE816076117009E95CD /* CoreGraphics.framework */,
@@ -111,15 +111,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8C7C900116076136009E95CD /* MPSearchableTableViewController */ = {
+		8C7C9014160771CE009E95CD /* MPSearchableTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8C7C900216076153009E95CD /* MPSearchableTableViewController.h */,
-				8C7C900316076153009E95CD /* MPSearchableTableViewController.m */,
-				8C7C900416076153009E95CD /* MPTableViewSearchBarBackgroundView.h */,
-				8C7C900516076153009E95CD /* MPTableViewSearchBarBackgroundView.m */,
+				8C7C9015160771CE009E95CD /* MPSearchableTableViewController.h */,
+				8C7C9016160771CE009E95CD /* MPSearchableTableViewController.m */,
+				8C7C9017160771CE009E95CD /* MPTableViewSearchBarBackgroundView.h */,
+				8C7C9018160771CE009E95CD /* MPTableViewSearchBarBackgroundView.m */,
 			);
-			name = MPSearchableTableViewController;
+			path = MPSearchableTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +190,8 @@
 				8C7C8FF116076117009E95CD /* main.m in Sources */,
 				8C7C8FF516076117009E95CD /* AppDelegate.m in Sources */,
 				8C7C90081607617E009E95CD /* SearchViewController.m in Sources */,
-				8C7C9009160761F5009E95CD /* MPSearchableTableViewController.m in Sources */,
-				8C7C900A160761F7009E95CD /* MPTableViewSearchBarBackgroundView.m in Sources */,
+				8C7C9019160771CE009E95CD /* MPSearchableTableViewController.m in Sources */,
+				8C7C901A160771CE009E95CD /* MPTableViewSearchBarBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +299,7 @@
 				8C7C900016076117009E95CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
